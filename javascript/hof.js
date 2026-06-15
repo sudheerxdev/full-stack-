@@ -59,3 +59,18 @@ const sumarray = mynum => {
     return total;
 }
 console.log(sumarray(mynum));
+
+// setinterval is a hof because it takes a function as an argument and it returns a function as a result
+// function saysudheer(){
+//     console.log("Hello sudheer");
+// }
+// setInterval(saysudheer, 1000);
+
+// // consise way using arraow function
+// setInterval(()=> console.log("Hello sudheer"), 1000);
+
+setTimeout(() => console.log("Hello sudheer"), 2000);
+function saysudheer(){
+    console.log("Hello sudheer");
+}
+setTimeout(saysudheer, 2000);
