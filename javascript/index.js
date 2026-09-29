@@ -136,3 +136,5 @@ obj.freeze(); // makes the object immutable naya nhi add kar paoge field
 obj.seal(); // makes the object immutable but allows to change the value of existing properties update kar skte ho 
 
 let obj1 = Object.assign({}, obj); // creates a shallow copy of the object
+
+let obj2 = Object.create(obj); // creates a new object with the specified prototype object and properties

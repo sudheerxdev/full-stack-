@@ -12,3 +12,11 @@ arr.map((num) => console.log(num+10));
 
 let newnumarr = arr.filter((num) => num % 2 == 0);
 console.log(newnumarr);
+
+arr.filter((num) => num % 2 == 0).forEach(num => console.log(num));
+
+
+// understanding the reduce now 
+
+let newa = arr.reduce((prev , curr) => prev + curr , 0);
+console.log(newa);

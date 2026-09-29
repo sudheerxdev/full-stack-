@@ -74,3 +74,5 @@ function saysudheer(){
     console.log("Hello sudheer");
 }
 setTimeout(saysudheer, 2000);
+
+// the main difference between setInterval and setTimeout is that setInterval will execute the function repeatedly after a specified interval of time and setTimeout will execute the function only once after a specified interval of time.
