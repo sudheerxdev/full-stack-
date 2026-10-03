@@ -1,0 +1,23 @@
+.container {
+    width: 600px;
+    height: 300px;
+    background-color: lightgray;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
