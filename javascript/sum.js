@@ -71,5 +71,9 @@ const result = users
         skills: [...skills, "React"]
     }));
 
-console.log(users);
+
+
+
 console.log(result);
+
+
