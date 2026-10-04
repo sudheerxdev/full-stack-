@@ -19,11 +19,6 @@
 // // console.log(y);
 
 
-
-//         return perimeter;
-//     }
-// }
-
 const users = [
     {
         id: 1,
