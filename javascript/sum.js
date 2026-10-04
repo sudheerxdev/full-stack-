@@ -34,7 +34,7 @@ const users = [
     }
 ];
 
-const result = users
+const res = users
     .filter(user => user.age >= 18)
     .map(({ id, name, skills }) => ({
         id,
@@ -45,6 +45,6 @@ const result = users
 
 
 
-console.log(result);
+console.log(res);
 
 
