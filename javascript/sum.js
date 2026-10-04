@@ -42,9 +42,6 @@ const res = users
         skills: [...skills, "React"]
     }));
 
-
-
-
 console.log(res);
 
 
